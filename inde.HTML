@@ -1,0 +1,108 @@
+gi<HTML lang="w">
+    <head>
+    <meta charset="utf-8">
+    <title>ödev</title>
+    <style>
+        .table{
+            border-collapse: collapse;
+
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        th{
+            background-color: beige;
+        }
+        form{
+            background-color:;
+            padding: 67px;
+           
+        }
+        .forma{
+           
+            border: 2px solid black ;
+          border-radius: 15px;
+          width: 25%;
+          height: auto;
+          position: ;
+          background-color:beige;
+          color:black;
+
+        }
+        .op{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+<h2><u>Tablo</u></h2>
+<table  class="table">
+    <tbody>
+    <tr>
+        <th>ÖĞRENCİ NUMARA</th>
+        <th>ADI VE SOYADI</th>
+        <th>CİNSİYET</th>
+    </tr>
+    <tr>
+        <td>241108551</td>
+        <td>Moussa osman</td>
+        <td rowspan="2"> erkek</td>
+
+    </tr>
+    <tr>
+        <td>241108544</td>
+        <td>Abdalah Mohamed</td>
+        </tr>
+        <tr>
+            <td>241108154</td>
+            <td>Samira jeunon</td>
+            <td>kız</td>
+        </tr>
+        <tr>
+            <td>241189553</td>
+            <td>Aman ista</td>
+            <td>erkek</td>
+        
+        </tr><tr>
+        <td colspan="3">toplam:4 kişi</td></tr>
+
+</table><br> <br>
+<form>
+    <div class="forma">
+        <h2 class="op">FORM</h2>
+    <label>kullanıcı adı:</label>
+    <input type="email" name="kullanıcı adı" placeholder="kullanıcı adınız giriniz"  size="18px" required><br><br>
+    <label>email:</label>
+    <input type="email" name="email "  placeholder="email giriniz" required> <br><br>
+    <label for="check">şifre:</label>
+    <input type="password" name="password" placeholder="şifeniz giriniz" id="" required><br><br>
+    <label for="dare">Doğüm tarihi:</label>
+    <input type="date" required><br><br>
+    <label for="color">En sevgi renk:</label>
+    <input type="color" id="color"><br><br>
+    <label>cinsiyet:</label>
+    <input type ="radio" name="cinsiyet "id="cinsiyet" required>
+    <label for="cinsiyet">kız</label>
+    <input type ="radio" name="cinsiyet "id="cinsiyet" required>
+    <label for="cinsiyet">erkek</label><br><br>
+    <label>ülkeniz:</label>
+    <select>
+        <option>türkiye </option>
+        <option>azerbaidjain</option>
+        <option>kamerun</option>
+        <option>çad</option>
+        <option>başka ülke</option>
+    </select><br><br>
+    <label>ödevin eklebilirsniz:</label>
+    <input type="file" ><br><br>
+    <input type="reset" value="iptal">
+    <input type="submit" value="Gönder">
+</div>
+    
+
+
+
+</form>
+    </body>
+
+</HTML>
